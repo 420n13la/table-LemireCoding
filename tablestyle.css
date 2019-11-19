@@ -1,0 +1,59 @@
+caption{
+	margin:20px 0 20px 0;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+table{
+	border-collapse: collapse;
+	font-family: 'Arial', sans-serif;
+	margin-right: auto;
+	margin-left:auto;
+	width: 60%;
+	height: 330px;
+
+}
+thead{
+	color: white;
+	background-color: #23807e;
+}
+
+table,td,th,tr{
+	border:1px solid black;
+}
+
+tfoot{
+	background-color: gold;
+}
+
+tbody tr:nth-child(2n+2) {
+    background-color: #DCDCDC;
+}
+
+tbody td:nth-child(11) {
+    color:red;
+    text-align: right;
+}
+
+tfoot td:nth-child(10) {
+    color:red;
+    text-align: right;
+}
+
+tbody td:nth-child(1n+3){
+	text-align: right;
+}
+
+tfoot td:nth-child(1n+3){
+	text-align: right;
+}
+
+tbody tr:nth-child(1n+1){
+	font-weight: bold;
+}
+
+tfoot tr:nth-child(1n+1){
+	font-weight: bold;
+}
+
+
